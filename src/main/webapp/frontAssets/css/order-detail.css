@@ -1,0 +1,102 @@
+.order-detail{
+    /*background-color: #eee;*/
+}
+.order-status{
+    background-color: #FF463C;
+    height: 100px;
+    line-height: 100px;
+    color: #fff;
+    text-shadow: none;
+    font-size: 18px;
+    text-align: center;
+}
+.delivery-num{
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+.order-address{
+    background-color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+.name-phone{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+}
+
+.order-info{
+    display: flex;
+    display: -webkit-flex;
+    padding: 5px 10px;
+    background-color: #ddd;
+    margin-bottom: 10px;
+}
+
+.order-info img{
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+.order-info>div{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 10px;
+}
+.order-info .name{
+    color: #333;
+    font-weight: bolder;
+    line-height: 20px;
+    max-height: 40px;
+    overflow: hidden;
+}
+.order-info .parameter{
+    color: #666;
+    max-height: 30px;
+    overflow: hidden;
+}
+.price{
+    text-align: right;
+    line-height: 30px;
+    padding-right: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+.price span{
+    color: #FF463C;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+.price span:before{
+    content: '￥';
+}
+.order-options{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    display: -webkit-flex;
+    /*border-top: 1px solid #ddd;*/
+    width: 100%;
+    padding: 10px 0;
+    justify-content: flex-end;
+    background-color: #fff;
+}
+.order-options a{
+    text-decoration: none;
+}
+.order-options button{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 80px;
+    margin: 0 5px;
+    border-radius: 3px;
+    font-family: Arial,"Microsoft YaHei",serif ;  /*统一使用微软雅黑字体*/
+}

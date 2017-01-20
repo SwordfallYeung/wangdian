@@ -1,0 +1,24 @@
+form{
+    border-top: 1px solid #ccc;
+    padding: 10px;
+}
+
+form .ui-btn{
+    width: 50%;
+    margin: 10% auto 1%;
+    padding: 2%;
+    background-color: #FF463C !important;
+    color: #fff !important;
+    font-weight: lighter;
+    font-family: Arial,"Microsoft YaHei",serif ;  /*统一使用微软雅黑字体*/
+}
+.register-forgetpwd{
+    padding: 0 10px;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+}
+.register-forgetpwd a{
+    text-decoration: none;
+    font-weight: lighter;
+}

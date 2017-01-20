@@ -1,0 +1,126 @@
+
+#submitOrderBtn{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin: 0;
+    z-index: 99;
+    background-color: #ccc;
+    color: #fff;
+    border: none;
+    text-shadow: none;
+    font-weight: lighter !important;
+    font-family: Arial,"Microsoft YaHei",serif ;  /*统一使用微软雅黑字体*/
+    cursor:not-allowed;
+}
+.available{
+    background-color: #FF463C !important;
+    cursor: pointer !important;
+}
+.available:focus{
+    background-color: #FF463C !important;
+    color: #fff;
+    text-shadow: none;
+    border: none;
+}
+#submitOrderBtn:focus{
+    background-color: #ccc;
+    color: #fff;
+    text-shadow: none;
+    border: none;
+}
+
+
+.choose-address{
+    margin: 10px 10px 0 10px !important;
+}
+
+.price{
+    background-color: #ddd;
+    padding: 0 10px;
+}
+
+
+.ui-controlgroup,.ui-field-contain{
+    padding: 0 !important;
+}
+
+.order-info{
+    display: flex;
+    display: -webkit-flex;
+    padding: 5px 10px;
+    background-color: #ddd;
+    margin-top: 10px;
+}
+
+.order-info img{
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+.order-info>div{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 10px;
+}
+.order-info .name{
+    color: #333;
+    font-weight: bolder;
+    line-height: 20px;
+    max-height: 40px;
+    overflow: hidden;
+}
+.order-info .parameter{
+    color: #666;
+    max-height: 30px;
+    overflow: hidden;
+}
+
+.buy-count{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: flex-start;
+    line-height: 46px;
+    text-align: center;
+    padding: 0 10px;
+    background-color: #ddd;
+    border-top: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.buy-count .ui-input-text{
+    padding: 0 !important;
+    border: none;
+    box-shadow: none;
+    width: 50px;
+    font-weight: bolder !important;
+    text-align: center !important;
+}
+.buy-count button{
+    width: 50px;
+    height: 30px;
+    padding: 0 !important;
+    margin: 8px 0;
+}
+.buy-count span{
+    width: 50px;
+    text-align: center;
+    font-weight: bolder;
+}
+.no-address{
+    background-color: #eee;
+    padding: 10px;
+}
+.no-address a{
+    text-decoration: none;
+}
+
+.remark{
+    padding: 10px;
+}
+.order-price{
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    text-align: right;
+}

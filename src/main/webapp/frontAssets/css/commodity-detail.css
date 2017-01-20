@@ -1,0 +1,126 @@
+.ui-page{
+    padding: 42px 0;
+
+}
+.user-options{
+    display: flex;
+    display: -webkit-flex;
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    z-index: 99;
+    width: 100%;
+}
+
+.user-options a{
+    margin: 0;
+    width: 50%;
+    background-color: #FF6700 !important;
+    color: #fff !important;
+    border: none;
+    text-shadow: none !important;
+    font-weight: lighter !important;
+    font-family: Arial,"Microsoft YaHei",serif ;  /*统一使用微软雅黑字体*/
+}
+.user-options a:focus{
+    background-color: #FF6700;
+    color: #fff;
+    text-shadow: none !important;
+    border: none;
+}
+#buyBtn{
+    background-color: #FF463C !important;
+}
+#buyBtn:focus{
+    background-color: #FF463C;
+    color: #fff;
+    text-shadow: none !important;
+    border: none;
+}
+
+.commodity-info{
+    margin-top: 10px;
+    background-color: #eee;
+    text-align: left;
+    padding: 10px;
+}
+.commodity-info>div{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+}
+.commodity-info h4{
+    margin: 0;
+    width: 60%;
+}
+.commodity-info .price{
+    text-align: center;
+    color: #FF463C;
+    font-weight: bolder;
+    width: 40%;
+}
+.commodity-info .price:before{
+    content: '￥';
+}
+.commodity-info p{
+    width: 100%;
+}
+.pic-detail .title{
+    font-size: 18px;
+    border-left: 4px solid #FF463C;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px 0;
+}
+
+.pic-detail img{
+    width: 100%;
+    display: block;
+}
+
+.countdown{
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    background-color: #fff;
+    flex-wrap: nowrap;
+    padding: 1%;
+    justify-content: flex-start;
+    margin-bottom: -5px;
+}
+.countdown>ul{
+    padding: 0;
+    margin: 0 0 0 10px;
+    list-style-type: none;
+    display: flex;
+    display: -webkit-flex;
+}
+.countdown p{
+    margin: 0;
+}
+.countdown li:nth-of-type(odd){
+    color: #38c;
+    text-shadow:0 1px 0 #38c;
+}
+
+.postage span{
+    color: #FF463C;
+    font-size: 0.8em;
+}
+
+.prompt-info{
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    text-shadow: none;
+    position: fixed;
+    bottom: 50px;
+    z-index: 999;
+}
+.prompt-info span{
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+}

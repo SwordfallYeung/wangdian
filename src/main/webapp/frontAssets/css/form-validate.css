@@ -1,0 +1,25 @@
+/*提示信息相关*/
+#alertInfoBtn{
+    display: none;
+}
+.ui-popup-container{
+    width: 80%;
+    border: none;
+}
+#alertInfo{
+    border: none;
+    border-bottom: 1px solid transparent;
+}
+.alert-info{
+    padding: 5%;
+    text-align: center;
+}
+#alertInfo .ui-header{
+    background-color: #FF463C;
+    color: #fff;
+}
+#alertInfo .ui-btn{
+    width: 50%;
+    margin: 5% auto;
+    text-align: center;
+}

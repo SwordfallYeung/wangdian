@@ -1,0 +1,100 @@
+#confirmBtn{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin: 0;
+    z-index: 99;
+    background-color: #ccc;
+    color: #fff;
+    border: none;
+    text-shadow: none;
+    font-weight: lighter !important;
+    font-family: Arial,"Microsoft YaHei",serif ;  /*统一使用微软雅黑字体*/
+    cursor:not-allowed;
+}
+.available{
+    background-color: #FF463C !important;
+    cursor: pointer !important;
+}
+.available:focus{
+    background-color: #FF463C !important;
+    color: #fff;
+    text-shadow: none;
+    border: none;
+}
+#confirmBtn:focus{
+    background-color: #ccc;
+    color: #fff;
+    text-shadow: none;
+    border: none;
+}
+.chosen-info{
+    padding: 10px;
+    background-color: #eee;
+    margin-bottom: 10px;
+}
+.chosen-info .price,.chosen-info .total-price,.chosen-info .name{
+    font-weight: bolder;
+}
+
+.total-price span,
+.name span,
+.price span{
+    font-weight: lighter;
+    color: #38c;
+    line-height: 30px;
+}
+.parameter>span{
+    font-weight: bolder;
+    margin: 0;
+    height: 30px;
+    line-height: 30px;
+}
+.chosen-parameter{
+    display: inline;
+}
+.chosen-parameter span{
+    color: #38c;
+    line-height: 30px;
+}
+.chosen-parameter span:nth-child(n+2):before{
+    content: "，";
+}
+
+.ui-controlgroup,.ui-field-contain{
+    padding: 0 10px !important;
+}
+.buy-count{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: flex-start;
+    line-height: 46px;
+    text-align: center;
+    padding: 0 10px;
+}
+.buy-count .ui-input-text{
+    padding: 0 !important;
+    border: none;
+    box-shadow: none;
+    width: 50px;
+    font-weight: bolder !important;
+    text-align: center !important;
+}
+.buy-count button{
+    width: 50px;
+    height: 30px;
+    padding: 0 !important;
+    margin: 8px 0;
+}
+.buy-count span{
+    width: 50px;
+    text-align: center;
+    font-weight: bolder;
+}
+.no-address{
+    background-color: #eee;
+    padding: 10px;
+}
+.no-address a{
+    text-decoration: none;
+}

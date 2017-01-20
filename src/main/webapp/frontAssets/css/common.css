@@ -1,0 +1,141 @@
+.ui-page{
+    padding: 42px 0 56px;
+    background-color: #fff;
+    font-family: Arial,"Microsoft YaHei",serif ;  /*统一使用微软雅黑字体*/
+}
+.fixed-header{
+    position: fixed;
+    z-index: 999;
+    height: 42px;
+    width: 100%;
+    top: 0;
+    background-color: #fff !important;
+    border: 1px solid #fff !important;
+    border-bottom: 1px solid #eee !important;
+    box-shadow: 0 0 2px 2px #ddd;
+}
+.fixed-header .ui-btn{
+    height: 30px;
+    width: 60px;
+    padding: 0;
+    line-height: 30px;
+    border-radius: 3px;
+    margin-top: 2px;
+}
+.search-box{
+    margin: 4px auto 0;
+    width: 50%;
+    padding: 0;
+}
+.search-box .ui-btn{
+    width: 30px !important;
+    height: 30px !important;
+    float: right;
+    margin: 0;
+    border-radius: 0 50% 50% 0;
+    border: 1px solid #FF463C;
+    background-color: #FF463C;
+}
+.search-box .ui-btn:visited,
+.search-box .ui-btn:hover{
+    border: 1px solid #FF463C;
+    background-color: #FF463C !important;
+}
+.search-box .ui-input-text{
+    height: 30px;
+    margin: 0;
+    box-shadow: none;
+    border-radius: 15px;
+}
+.fixed-header input{
+    min-height: 30px;
+    width: 80%;
+    padding: 0 0 0 5%;
+    float: left;
+    margin: 0;
+    height: 30px;
+    border-radius: 15px;
+}
+
+#logoutPanel{
+    width: 50%;
+    text-align: center;
+}
+#logoutPanel .ui-btn{
+    border: 1px solid #FF463C;
+    background-color: #FF463C;
+    color: #fff;
+    font-weight: lighter;
+    font-family: Arial,"Microsoft YaHei",serif ;  /*统一使用微软雅黑字体*/
+}
+
+
+.ui-content{
+    padding: 0;
+}
+
+.unslider-arrow{
+    display: none;
+}
+.unslider{
+    padding: 0;
+    border: none;
+}
+.my-slider{
+    padding: 0;
+}
+.my-slider ul li{
+    padding: 2px 0;
+}
+.my-slider img{
+    width: 100%;
+}
+.unslider-nav{
+    margin-top: -10px;
+}
+.unslider-nav ol li{
+    background-color: #ddd;
+    border: 1px solid #ddd;
+}
+.unslider-nav ol li.unslider-active{
+    background-color: #FF463C;
+    border: 1px solid #FF463C;
+}
+
+
+
+.ui-footer-fixed{
+    border-bottom: none;
+}
+.ui-footer-fixed .ui-btn{
+    background-color: #fff !important;
+    border: none;
+}
+
+
+
+/*公共底部激活菜单样式重定义*/
+.ui-footer-fixed .ui-btn-active{
+    border: none !important;
+    color: #38c !important;
+    text-shadow: none !important;
+}
+.ui-footer-fixed .ui-block-a{
+    box-shadow: none;
+    outline: none;
+}
+.ui-footer-fixed .ui-btn-active:after{
+    background-color: #38c;
+}
+
+/*去除默认获得焦点时的按钮样式*/
+.ui-btn:focus{
+    box-shadow: none !important;
+}
+
+.no-more{
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    border: none !important;
+}

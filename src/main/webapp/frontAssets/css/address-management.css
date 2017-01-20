@@ -1,0 +1,79 @@
+.ui-page{
+    padding: 42px 0 0;
+    background-color: #ccc;
+    font-family: Arial,"Microsoft YaHei",serif ;  /*统一使用微软雅黑字体*/
+}
+#addAddressBtn{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin: 0;
+    z-index: 99;
+    background-color: #FF463C;
+    color: #fff;
+    border: none;
+    text-shadow: none;
+    font-weight: lighter !important;
+    font-family: Arial,"Microsoft YaHei",serif ;  /*统一使用微软雅黑字体*/
+}
+#addAddressBtn:focus{
+    background-color: #FF463C;
+    color: #fff;
+    text-shadow: none;
+    border: none;
+}
+
+.address{
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.address:nth-last-child(1){
+    margin-bottom:55px;
+}
+.address-info{
+    padding: 10px 20px;
+}
+.address-info p{
+    line-height: 1.5em;
+}
+
+.address-info .name-phone{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+}
+.address-options{
+    text-align: center;
+    background-color: #fff;
+    border-top: 1px solid #eee;
+}
+
+.address-options a{
+    color: #333;
+    text-shadow: none;
+}
+.address-options a:hover{
+    background-color: #eee !important;
+}
+.address-options .ui-btn-active{
+    color: #333 !important;
+    text-shadow: none !important;
+}
+.address-options .ui-block-a{
+    visibility: hidden;
+}
+.address-options .ui-btn{
+    margin: 0;
+    border: none;
+    background-color: #fff;
+}
+.address-options .ui-btn:visited{
+    background-color: #fff;
+}
+
+.prompt-info{
+    background-color: #fff;
+    font-size: 18px;
+    line-height: 1.8em;
+    padding: 2%;
+}

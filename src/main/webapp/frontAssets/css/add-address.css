@@ -1,0 +1,50 @@
+
+.ui-field-contain{
+    padding: 0;
+    margin: 0;
+}
+form .ui-input-text,form .ui-select{
+    margin: 0;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #eee;
+    padding: 0 2%;
+    box-shadow: none !important;
+}
+
+#city .ui-btn,.current-address{
+    margin: 0;
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid #eee;
+}
+#city select,.current-address{
+    width: 100%;
+    color: #333;
+    font-weight: lighter;
+    padding: 10px 2%;
+}
+
+textarea{
+    padding: 1em 2% !important;
+    margin-top: 20px;
+    height: 100px !important;
+    border-bottom: 1px solid #eee !important;
+
+}
+
+form>.ui-btn:nth-last-child(1){
+    width: 50%;
+    margin: 10% auto 1%;
+    padding: 2%;
+    background-color: #FF463C !important;
+    border-radius: 0;
+    color: #fff !important;
+    font-weight: lighter;
+    font-family: Arial,"Microsoft YaHei",serif ;  /*统一使用微软雅黑字体*/
+}
+
+.ui-input-text:focus{
+    box-shadow: none !important;
+}
+

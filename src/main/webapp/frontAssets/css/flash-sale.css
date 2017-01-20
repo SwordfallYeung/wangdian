@@ -1,0 +1,68 @@
+.flash-sale{
+    background-color: #eee;
+}
+.flash-sale .ui-grid-solo{
+    text-decoration: none;
+    color: #333;
+    font-weight: lighter;
+}
+.flash-sale a:visited,.flash-sale a:focus{
+    color: #333;
+}
+.ui-grid-solo img {
+    width: 100%;
+}
+.ui-grid-solo .ui-block-a{
+    border: 1px solid #ddd;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.ui-grid-solo:nth-last-child(1) .ui-block-a{
+    margin-bottom: 0;
+}
+.ui-block-a>div:nth-child(1){
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.countdown{
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    background-color: #fff;
+    flex-wrap: nowrap;
+    padding: 1%;
+    justify-content: flex-start;
+}
+.countdown>ul{
+    padding: 0;
+    margin: 0 0 0 10px;
+    list-style-type: none;
+    display: flex;
+    display: -webkit-flex;
+}
+.countdown p{
+    margin: 0;
+}
+.countdown li:nth-of-type(odd){
+    color: #38c;
+    text-shadow:0 1px 0 #38c;
+}
+
+.commodity-info{
+    text-align: center;
+}
+.commodity-info .price span:before{
+    content: '￥';
+}
+.commodity-info .price span:nth-of-type(1){
+    color: #FF463C;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.commodity-info .price span:nth-of-type(2){
+    color: #aaa;
+    font-weight: lighter;
+    text-decoration: line-through;
+}
